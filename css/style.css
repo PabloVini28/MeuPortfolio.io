@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@media screen and (min-width: 1068px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: "Rubik", sans-serif;
+    }
+
+    header {
+        display: flex;
+        padding: 25px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #1B1F23, #1d1d1e);
+        overflow-y: scroll;
+    }
+
+    header > section {
+        padding-right: 25px;
+    }
+
+    header > section > h1 {
+        font-size: 2.6em;
+    }
+
+    nav {
+        margin: auto;
+    }
+
+    nav > ul {
+        text-align: right;
+        display: inline;
+        margin: auto;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+        margin: auto;
+        padding: 15px;
+    }
+
+    nav > ul > li > a {
+        text-shadow: #252728;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    nav > ul > li > a:hover {
+        background-color: #363e46;
+        transition: 0.5s;
+    }
+
+    header > figure {
+        margin: 0;
+    }
+
+    header > figure > a > img {
+        width: 70px;
+    }
+
+    header > figure > a > img:hover {
+        background-color: aqua;
+    }
+
+    .container > #Titulo > h1 {
+        padding-left: 25px;
+        font-size: 3.0em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1s;
+    }
+
+    .container > #Titulo > p {
+        padding-left: 25px;
+        text-align: left;
+        max-width: 100%;
+        padding-bottom: 20px;
+        transition: 1s;
+    }
+
+    .container > #Historia > h1 {
+        padding-left: 25px;
+        font-size: 2.0em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1.5s;
+    }
+
+    .container > #Historia > p {
+        padding-left: 25px;
+        font-size: 1.5em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1.5s;
+    }
+}
+
+@media screen and (max-width: 1068px){
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+        font-family: "Rubik", sans-serif;
+    }
+
+    header {
+        display:flexbox;
+        justify-content: center;
+        padding: 25px;
+        text-align: center;
+    }
+
+    body {
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #1B1F23, #1d1d1e);
+        overflow-y: scroll;
+    }
+
+    header > section > h1 {
+        font-size: 2.6em;
+        width: 100%;
+    }
+
+    nav {
+        margin: auto;
+        width: 80vw;
+    }
+
+    nav > ul {
+        text-align: center;
+        display: flex;
+        margin: auto;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    nav > ul > li {
+        display: inline-block;
+        margin: auto;
+    }
+
+    nav > ul > li > a {
+        text-shadow: #252728;
+        border-radius: 5px;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    nav > ul > li > a:hover {
+        background-color: #363e46;
+        transition: 0.5s;
+    }
+
+    header > figure {
+        width: 100%;
+        margin: 0;
+    }
+
+    header > figure > a > img {
+        width: 50px;
+    }
+
+    header > figure > a > img:hover {
+        background-color: aqua;
+    }
+
+    .container > #Titulo > h1 {
+        padding-left: 25px;
+        font-size: 3.0em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1s;
+    }
+
+    .container > #Titulo > p {
+        padding: 0px 25px;
+        text-align: left;
+        max-width: 100%;
+        padding-bottom: 20px;
+        transition: 1s;
+    }
+
+    .container > #Historia > h1 {
+        padding: 0px 25px;
+        font-size: 2.0em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1.5s;
+    }
+
+    .container > #Historia > p {
+        padding: 25px;
+        font-size: 1.5em;
+        text-align: left;
+        max-width: 100%;
+        transition: 1.5s;
+    }
+}
